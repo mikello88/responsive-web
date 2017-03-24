@@ -1,0 +1,54 @@
+body {
+    font-size: 15px;
+    background-color: black;
+    font-family: 'Verdana';
+}
+
+div {
+    background-image: url(obrazy/man-1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40em;
+    height: 40em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article {
+    color: blanchedalmond;
+    text-align: left;
+    margin-left: 1em;
+    padding: 10px;
+}
+
+
+@media only screen and (max-width: 78em) {
+    body {
+        background-color: black;
+    }
+    
+    article {
+        color: blanchedalmond;
+        text-align: right;
+        padding: 10px;
+         }
+    div {
+        background-image: url(obrazy/man-2.jpg);
+    }
+}
+
+@media only screen and (max-width:66em) {
+    body {
+        background-color: white;
+    }
+    
+    article {
+        color: black;
+        text-align: center;
+        padding-top: 400px;
+    }
+    
+    div {
+        background-image: url(obrazy/man-1.jpg);
+    }
+}
